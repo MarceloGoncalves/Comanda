@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Comanda</string>
+    <string name="str_almoco">Almoço</string>
+    <string name="str_historico">Histórico</string>
 </resources>
