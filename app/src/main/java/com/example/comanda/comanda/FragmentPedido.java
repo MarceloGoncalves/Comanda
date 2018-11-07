@@ -20,6 +20,9 @@ public class FragmentPedido extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.pedido_fragment,container,false);
 
+
+
         return view;
     }
+
 }

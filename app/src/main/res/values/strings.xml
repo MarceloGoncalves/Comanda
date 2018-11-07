@@ -2,4 +2,39 @@
     <string name="app_name">Comanda</string>
     <string name="str_almoco">Almoço</string>
     <string name="str_historico">Histórico</string>
+    <string name="str_prato">Prato</string>
+    <string-array name="str_array_almoco">
+        <item>Filé de Frango</item>
+        <item>Porco Frito</item>
+        <item>Cozido de Gado</item>
+        <item>Cozido de Frango</item>
+        <item>Cozido de Carneiro</item>
+        <item>Figado Acebolado</item>
+        <item>Bife</item>
+        <item>Peixe Frito</item>
+        <item>Charuto Vegano</item>
+        <item>Berinjela à Parmegiana</item>
+        <item>Charuto Vegano</item>
+        <item>Panqueca Vegana</item>
+        <item>Risoto de champignon</item>
+    </string-array>
+
+    <string-array name="str_array_suco">
+        <item>Maracujá</item>
+        <item>Manga</item>
+        <item>Tamarindo</item>
+        <item>Acerola</item>
+        <item>Goiaba</item>
+    </string-array>
+
+    <string name="frase_marqueOpcoes">Marque as opções desejadas</string>
+    <string name="frase_tipoArroz">Qual tipo de Arroz ?</string>
+    <string name="str_arroz_branco">Arroz Branco</string>
+    <string name="str_arroz_integral">Arroz Integral</string>
+    <string name="str_nao_quero">Não quero</string>
+
+    <string name="frase_tipoFeijao">Qual tipo de Feijão?</string>
+    <string name="str_feijao_mulatinho">Mulatinho</string>
+    <string name="str_feijao_corda">Corda</string>
+
 </resources>

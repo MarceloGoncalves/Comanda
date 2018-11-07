@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollIndicators="right">
+
+        <TextView
+            android:id="@+id/textAlmoco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/str_almoco"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:textColor="@color/colorAlmoco"
+            android:layout_marginTop="6dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textPrato"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/str_prato"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/list_prato"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/btn_adicionarPrato"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="+" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textMarqueOpcoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/frase_marqueOpcoes"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/textTipoArroz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/frase_tipoArroz"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/radio_arrozBranco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/str_arroz_branco"
+                    />
+                <RadioButton
+                    android:id="@+id/radio_arrozIntegral"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/str_arroz_integral"
+                    />
+                <RadioButton
+                    android:id="@+id/radio_arrozNao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/str_nao_quero"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textTipoFeijao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/frase_tipoFeijao"
+                android:textSize="20sp"
+                android:gravity="left"
+                android:textStyle="bold"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/radio_feijaoMulatinho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_feijao_mulatinho"
+                    />
+                <RadioButton
+                    android:id="@+id/radio_feijaoCorda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/str_feijao_corda"
+                    />
+                <RadioButton
+                    android:id="@+id/radio_feijaoNao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/str_nao_quero"
+                    />
+
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
