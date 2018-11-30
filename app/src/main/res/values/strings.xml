@@ -37,4 +37,11 @@
     <string name="str_feijao_mulatinho">Mulatinho</string>
     <string name="str_feijao_corda">Corda</string>
 
+    <string name="frase_pratoCompleto">Deseja um Prato Completo?</string>
+    <string name="str_completo">Completo</string>
+    <string name="str_sim">Sim</string>
+    <string name="str_nao">Não</string>
+
+    <string name="str_macarrao">Macarrão</string>
+
 </resources>
